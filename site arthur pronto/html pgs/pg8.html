@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pine - Produto</title>
+        <link rel="stylesheet" href="../Assets/style/pgbook.css">
+        <link rel="icon" href="../Assets/logo preta.png">
+    </head>
+    
+    <body>
+        <header>
+            <a href="#"><img class="logo" src="../../PINE_resized.png" alt="Home"></a>
+            <nav>
+              <ul class="nav__links">
+            <li><a href="../../catalogos/index.html">Produtos</a></li>
+            <li><a href="../../sobre/sobre.html">Sobre</a></li>
+            <li><a href="../../login/signin.html">Conta</a></li>
+          </ul>
+            </nav>
+            <div class="lilicons">
+              <img class="searchicon" src="../../lupa.png" alt="Pesquisar" weight="37px" height="37px">
+            </div>
+            <img class="carticon" src="../../carrinho_resized.png" alt="Carrinho" weight="37px" height="37px">
+          </header>
+    
+    
+        <div class="content">
+    
+            <div id="lugimg">
+                <img class="imgProduto" src="../../PineEcoBookTundra.png" alt=""  >
+            </div>
+    
+            <div class="caracteristicas">
+                <span class="nome">PINE EcoPhone Tropical</span>
+                <span class="descricao">
+                <ul>
+                    <li>Processador: AMD Ryzen 5</li>
+                    <li>Memória RAM: 8 GB DDR4</li>
+                    <li>Armazenamento: SSD de 256 GB</li>
+                    <li>Placa de Vídeo: NVIDIA GeForce MX250</li>
+                    <li>Tela: Full HD, 14 polegadas</li>
+                </ul>
+            
+            
+                
+            </span>
+                <span class="preco">R$ 3.000,00</span>
+                <div class="btnsCarrinho">
+                    <div class="quantP">
+                        <button class="btnQuant" onclick="diminuirQuant()"><img class="btnMN" src="../Assets/botoes/minus-solid.svg" alt=""></button>
+                        <span id="lugQuant"></span>
+                        <button class="btnQuant" onclick="aumentarQuant()"><img  class="btnMN" src="../Assets/botoes/plus-solid.svg" alt=""></button>
+    
+                    </div>
+                    <button class="btnADD">
+                        Adicionar ao carrinho
+                    </button>
+    
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="comentários">
+            <strong><label for="coment"> Comentários (máx. 300 caracteres):</label><br></strong>
+            <textarea rows="1" cols="150" id="comment-text" class="comment-text" placeholder="Seu comentário aqui..."></textarea>
+            <br>
+            <button class="btnCOM" id="btn-comment" onclick="aparecerComen()">
+                Enviar
+            </button>
+        </div>
+        
+        <div class="comentario-exibido"  id="comentario-exibido"></div>
+    
+    
+        
+    
+    </body>
+    <script src="../Assets/script/main4.js"></script>
+    </html>

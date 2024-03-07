@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#"><img class="logo" src="../PINE_resized.png" alt="Home"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="../catalogos/index.html">Produtos</a></li>
+        <li><a href="../sobre/sobre.html">Sobre</a></li>
+        <li><a href="../login/signin.html">Conta</a></li>
+      </ul>
+    </nav>
+    <div class="lilicons">
+      <img class="searchicon" src="../lupa.png" alt="Pesquisar" weight="37px" height="37px">
+    </div>
+    <img class="carticon" src="../carrinho_resized.png" alt="Carrinho" weight="37px" height="37px">
+  </header>
+
+  <div class="banner">
+    <h1>FONES</h1>
+    <img src="fones.jpg" alt="Imagem Grande">
+  </div>
+  
+  <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Pesquisar...">
+
+  <div class="container">
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg9.html"><img src="../PineEcoSoundPlus1.png" alt="Produto 2"></a>
+      <h3>PINE Eco Sound Plus</h3>
+      <p>o melhor audio do mercado!</p>
+      <button id="Btn1" onclick="redirecionar1()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg10.html"><img src="../PineEcoSound1.png" alt="Produto 3"></a>
+      <h3>PINE Eco Sound</h3>
+      <p>compacto para levar aonde quiser</p>
+      <button id="Btn2" onclick="redirecionar2()">Saiba Mais</button>
+    </div>
+  
+  <script src="script.js"></script> 
+  
+</body>
+</html>

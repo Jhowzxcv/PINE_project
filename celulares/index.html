@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#"><img class="logo" src="../PINE_resized.png" alt="Home"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="../catalogos/index.html">Produtos</a></li>
+        <li><a href="../sobre/sobre.html">Sobre</a></li>
+        <li><a href="../login/signin.html">Conta</a></li>
+      </ul>
+    </nav>
+    <div class="lilicons">
+      <img class="searchicon" src="../lupa.png" alt="Pesquisar" weight="37px" height="37px">
+    </div>
+    <img class="carticon" src="../carrinho_resized.png" alt="Carrinho" weight="37px" height="37px">
+  </header>
+
+  <div class="banner">
+    <h1>CELULARES</h1>
+    <img src="celulares.jpg" alt="Imagem Grande">
+  </div>
+  
+  <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Pesquisar...">
+
+  <div class="container">
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg1.html"><img src="../PineEcoPhoneSavagePink.png" alt="Produto 1"></a>
+      <h3>PINE EcoPhone Savage</h3>
+      <p>PINE X AESPA</p>
+      <button id="Btn1" onclick="redirecionar1()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg 2.html"><img src="../PineEcoPhoneAeroGreen.png" alt="Produto 2"></a>
+      <h3>PINE EcoPhone Aero</h3>
+      <p>Desing leve e aerodinâmico</p>
+      <button id="Btn2" onclick="redirecionar2()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg3.html"><img src="../PineEcoPhoneAquaBlue.png" alt="Produto 3"></a>
+      <h3>PINE EcoPhone Aqua</h3>
+      <p>Resistência à água</p>
+      <button id="Btn3" onclick="redirecionar3()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg 4.html"><img src="../PineEcoPhoneTropicalGreen.png" alt="Produto 4"></a>
+      <h3>PINE EcoPhone Tropical</h3>
+      <p>Filmagens em 8k</p>
+      <button id="Btn4" onclick="redirecionar4()">Saiba Mais</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

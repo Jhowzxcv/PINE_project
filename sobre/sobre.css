@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(12, 12, 12);
+  font-family: "Montserrat", sans-serif;
+  }
+
+  
+  /*barrinha de navegação*/
+  
+  li, a {
+
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+  }
+
+  h2 {
+    color: rgb(240, 240, 240);
+  }
+  
+  header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(12, 12, 12);
+    
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+
+  .lilicons {
+    filter:invert(1);
+    mix-blend-mode: overlay;
+  }
+  
+  .nav__links {
+    list-style: none;
+  }
+  
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color .2s cubic-bezier(.25,.1,.25,1);
+  }
+  
+  .nav__links li a:hover {
+    color:rgb(26, 209, 87)
+  }
+
+  .titulo{
+    color:rgb(26, 209, 87)
+  }
+
+.banner1, .banner2 {
+  position: relative;
+  display: inline-block;
+}
+
+.banner1{
+    background-image: url(732573.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner1 a {
+  align-self: center;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  background-color: transparent;
+}
+
+.banner2{
+    background-image: url(smart-phone-addiction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.banner2texto {
+  align-self: center;
+  position: absolute;
+  text-align: left;
+  margin-left: 70px;
+  width: 45vw;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.banner2texto h2, a{
+  background-color: transparent;
+}
+
+.second{
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 23vh 25vw;
+}
+
+.banner3texto{
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    text-align: left;
+    float: right;
+    width: 50%;
+    font-size: 30px;
+    background-color: transparent;
+    margin-right: 4vw;
+    margin-bottom: 4vh;
+  }
+
+ .banner3{
+  margin-top: 20vh;
+}
+
+.banner3 img{
+  margin-left: 8vw;
+}

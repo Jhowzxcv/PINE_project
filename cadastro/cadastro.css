@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #323232;
+  border: none;
+}
+
+input, label {
+  display: block;
+  outline: none;
+  width: 100%;
+background-color: transparent;
+}
+
+body {
+  background-image: url(../background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color .2s cubic-bezier(.25,.1,.25,1);
+}
+
+.nav__links li a:hover {
+  color:rgb(76, 197, 116)
+}
+
+/* form */
+#main-container {
+  width: 900px;
+  margin: auto;
+  background-color: rgba(228, 228, 228, 0.3) ;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px;
+  position: relative;
+  align-self: center; 
+  margin: 4vh auto;
+
+  
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.full-box #btn-submit{
+  width: 30vw;
+  display: table-cell;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  transition: border-color, scale  0.3s;
+}
+
+input:focus {
+  border-color: #51F5A9;
+  scale: 1.05;
+}
+
+input[type="button"] {
+  background-color: #51F5A9;
+  color: #323232;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: scale 0.3s;
+}
+
+input[type="button"]:hover {
+  scale: 1.05
+}
+
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: .8rem;
+  margin: 1vh;
+}
+
+.template {
+  display: none;
+}
+
+.nav {
+  padding-bottom: 0%;
+}
+
+.nav ul {
+  font-size: 1.2rem;
+  list-style-type: none;
+  justify-content: flex-start; 
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(228, 228, 228);
+}
+
+.nav li {
+  display: flex; 
+  align-items: center; 
+}
+
+.nav a {
+  margin-right: 15.8%; 
+  margin-left: 1%;
+}
+
+.nav .transicao {
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  margin: 4px;
+  display: block;
+  transition: scale 0.3s;
+}
+
+.nav .transicao:hover {
+  scale: 1.3;
+}

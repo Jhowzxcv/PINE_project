@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#"><img class="logo" src="../PINE_resized.png" alt="Home"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="../catalogos/index.html">Produtos</a></li>
+        <li><a href="../sobre/sobre.html">Sobre</a></li>
+        <li><a href="../login/signin.html">Conta</a></li>
+      </ul>
+    </nav>
+    <div class="lilicons">
+      <img class="searchicon" src="../lupa.png" alt="Pesquisar" weight="37px" height="37px">
+    </div>
+    <img class="carticon" src="../carrinho_resized.png" alt="Carrinho" weight="37px" height="37px">
+  </header>
+
+  <div class="banner">
+    <h1>COMPUTADORES</h1>
+    <img src="computadores.jpg" alt="Imagem Grande">
+  </div>
+  
+  <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Pesquisar...">
+
+  <div class="container">
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg6.html"><img src="../PineEcoBookTaigaPro.png" alt="Produto 1"></a>
+      <h3>PINE EcoBook Taiga Pro</h3>
+      <p>o mais potente!</p>
+      <button id="Btn1" onclick="redirecionar1()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg 5.html"><img src="../PineEcoBookTaiga.png" alt="Produto 2"></a>
+      <h3>PINE EcoBook Taiga</h3>
+      <p>casual com portecia de sobra!</p>
+      <button id="Btn2" onclick="redirecionar2()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg8.html"><img src="../PineEcoBookTundra.png" alt="Produto 3"></a>
+      <h3>PINE EcoBook Tundra</h3>
+      <p>minimalista e moderno</p>
+      <button id="Btn3" onclick="redirecionar3()">Saiba Mais</button>
+    </div>
+    
+    <div class="product">
+      <a href="../site arthur pronto/html pgs/pg7.html"><img src="../PineecoBookSavannah.png" alt="Produto 4"></a>
+      <h3>PINE EcoBook Savannah</h3>
+      <p>melhor custo-beneficio</p>
+      <button id="Btn4" onclick="redirecionar4()">Saiba Mais</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script> 
+  
+</body>
+</html>

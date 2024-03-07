@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    padding: 10px;
+    align-items: center;
+    width: 90vw;
+    align-self: center;
+}
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+
+.nav__links {
+    list-style: none;
+  }
+  
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color .2s cubic-bezier(.25,.1,.25,1);
+  }
+  
+  .nav__links li a:hover {
+    color:rgb(76, 197, 116)
+  }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    height: 100px;
+}
+.btns{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background:none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.links{
+   text-decoration: none;
+   color: grey; 
+}
+.lugarLinks{
+    display: flex;
+    gap: 40px;
+}
+.person{
+    display: flex;
+    gap: 20px;
+}
+.btnMenu{
+    display: none;
+}
+
+@media (max-width: 832px) {
+    .lugarLinks {
+      display: none;
+    }
+    .btnMenu{
+        display: block;
+        height: 30px;
+        width: 30px;
+        border: none;
+        background:none;
+
+    }
+
+  }
+
+  @media (max-width: 1120px) { 
+    .imgProduto{
+        height: 100px;
+        margin-top: 200px;
+    }
+    .content{
+        height: max-content;
+        flex-direction: column;
+        align-items: start;
+
+    } 
+  }
+
+.imgProduto{
+    height: 500px;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 70vw;
+}
+
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.preco{
+    font-weight: 700;
+    color: black;
+}
+.nome{
+    font-size: 30pt;
+    font-weight: 700;
+    color: black;
+}
+
+.marca{
+    color: green;
+    font-weight: 700;
+}
+.btnsCarrinho{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quantP{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnQuant{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: none;
+    color: green;
+    font-size: 30px;
+}
+.btnADD{
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnMN{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background:none;
+}
+.descricao{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-left: 17px;
+}
+
+.btnMudarCor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    }
+#imgCor1{
+    background-color: darkblue
+}
+#imgCor2{
+    background-color: lightgreen
+}
+
+
+.lugInput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav {
+    padding-bottom: 7.5vh;
+  }
+  
+  .nav ul {
+    font-size: 1.2rem;
+    list-style-type: none;
+    justify-content: flex-start; 
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .nav li {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .nav a {
+    margin-right: 15.8%; 
+    margin-left: 1%;
+  }
+  
+  .nav .transicao {
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+    margin: 4px;
+    display: block;
+    transition: scale 0.3s;
+  }
+  
+  .nav .transicao:hover {
+    scale: 1.3;
+  }
+
+.comentários {
+    padding: 150px;
+    padding-top: 45%;
+    
+}
+
+.comentários textarea {
+    margin: 2% 0;
+}
+
+.btnCOM{
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    position: relative;
+    border-bottom: 1px solid red;
+}
+
+textarea :invalid{
+    border: 2px solid red;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+.comment text{
+    width: 250px;
+}
+
+.comentario-exibido {
+   margin-left: 150px;
+   color: rgb(0, 0, 0);
+   margin-top: -100px; 
+
+}

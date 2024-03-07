@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.pdt{
+  font-size: 2.5rem;
+  padding-top: 7%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+}
+
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color .2s cubic-bezier(.25,.1,.25,1);
+}
+
+.nav__links li a:hover {
+  color:rgb(76, 197, 116)
+}
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: none;
+
+  }
+
+  .slide.active {
+    display: block;
+  }
+  
+
+  .slide img {
+    width: 100%;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+.container_img{
+  text-align: center;
+}
+
+
+.image1{
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 5px;
+}
+
+.image_half{
+  width: 35%;
+    background-color:  #f6f6f6;
+    margin: 5px 5px;
+    padding-bottom: 4%
+}
+
+.cont1{
+  display: inline-block;
+  background-color:  #f6f6f6;
+  width: 90%;
+  margin-bottom: 5px;
+  
+}
+
+.cont1 h1{
+  background-color: #f6f6f6;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 3.2rem;
+  text-align: left;
+}
+
+.cont2{
+  display: inline-block;
+  background-color:  #f6f6f6;
+  width: 45%;
+  margin: 1px 1px;
+  
+}
+
+.cont2 h1{
+  background-color: #f6f6f6;
+  margin: 10px;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.sobre{
+  width: 57vw;
+  text-align: left;
+  padding-top: 11%;
+  padding-right: 5%;
+  float: right;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sobre p{
+  display: inline-block;
+}
+
+.img_sobre{
+  width: 40vw;
+  float: left;
+  padding-top: 6%;
+  padding-left: 10%;
+  padding-right: 6%;
+
+}
+
+.sobre h2{
+  padding-bottom: 10px;
+}
+
+.sobre a{
+  color: rgb(15, 168, 66);
+  font-size: 1.6rem;
+
+}
+
