@@ -156,7 +156,7 @@
     justify-content: center; 
     display: flex;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     height: 15vh;
     font-weight: bold
   }

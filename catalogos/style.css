@@ -4,6 +4,7 @@
   margin: 0%;
   padding: 0%;
   font-family: "Montserrat", sans-serif;
+
 }
 
 .banner{
@@ -13,7 +14,7 @@
 }
 
 .banner h1{
-  color: white;
+  color: rgb(240, 240, 240);
   position: absolute;
   align-self: center;
   font-size: 6rem;
@@ -61,4 +62,10 @@ header {
 
 .nav__links li a:hover {
   color:rgb(76, 197, 116)
+}
+
+/* Estilizando a área de rolagem */
+body::-webkit-scrollbar {
+  width: 0px; /* Largura da barra de rolagem */
+  
 }
