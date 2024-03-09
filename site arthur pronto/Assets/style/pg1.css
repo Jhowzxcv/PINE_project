@@ -169,14 +169,16 @@ nav{
 .btnADD{
     border: none;
     outline: none;
-    background-color: green;
+    background-color: rgb(26, 209, 87);
     color: rgb(240, 240, 240);
-    padding: 10px;
+    padding: 18px;
     border-radius: 10px;
 }
 .btnMN{
     width: 20px;
     height: 20px;
+    font-size: 2rem;
+    margin-bottom: 70%;
     border: none;
     background:none;
 }

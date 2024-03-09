@@ -156,6 +156,7 @@ header {
 
 .sobre p{
   display: inline-block;
+  padding-bottom: 30px;
 }
 
 .img_sobre{
