@@ -37,19 +37,23 @@ function search_product() {
         }
     }
     
-    // Se nenhum produto foi encontrado, atualiza o conteúdo da div 'resultado'
+   // Se nenhum produto foi encontrado, atualiza o conteúdo da div 'resultado'
     if (!produtoEncontrado) {
         let divResultado = document.getElementById('resultado');
         if (divResultado) {
             divResultado.textContent = 'Produto não encontrado';
+            divResultado.id = 'resultado_N'
         }
+
     } else {
         // Se algum produto foi encontrado, remove o conteúdo da div 'resultado' se existir
-        let divResultado = document.getElementById('resultado');
+        let divResultado = document.getElementById('resultado_N');
         if (divResultado) {
             divResultado.textContent = ''; // Remove o conteúdo da div
+            divResultado.id = `resultado`;
         }
     }
+    
 }
 
 

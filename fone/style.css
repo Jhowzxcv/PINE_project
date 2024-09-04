@@ -119,6 +119,12 @@ input:focus {
   
 }
 
+#resultado_N{
+  margin: 18vh;
+  font-weight: 500;
+  font-size: 60px;
+}
+
 /* Estilizando a área de rolagem */
 body::-webkit-scrollbar {
   width: 0px; /* Largura da barra de rolagem */
